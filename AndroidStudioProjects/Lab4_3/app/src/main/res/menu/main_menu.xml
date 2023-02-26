@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/on"
+        android:title="play music"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/off"
+        android:title="stop music" />
+    <item
+        android:id="@+id/speak"
+        android:enabled="true"
+        android:title="Speak"
+        app:showAsAction="always" />
+</menu>

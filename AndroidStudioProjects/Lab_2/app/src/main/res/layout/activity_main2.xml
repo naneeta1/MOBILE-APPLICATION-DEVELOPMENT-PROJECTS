@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_margin="5sp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose Toppings"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/choc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chocolate" />
+
+        <CheckBox
+            android:id="@+id/cream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cream" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:text="Quantity:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:onClick="addquantity"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="51dp"
+            android:layout_height="40dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="minusquantity"
+            android:text="-"
+            tools:layout_editor_absoluteX="142dp" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:onClick="order"
+        android:text="Order"
+        tools:layout_editor_absoluteX="173dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="174dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:text="Order Summary:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="282dp"
+        android:layout_height="241dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Add whipped cream? Yes \n Add Chocolate? No \n Quantity? 2 \n\n Price: 9.0$ \n Thank You!"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="74dp" />
+</LinearLayout>

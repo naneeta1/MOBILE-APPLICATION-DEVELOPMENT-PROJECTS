@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YourHappyRecipe</string>
+    <string name="SearchHint">Search term: e.g: Lasagna etc</string>
+    <string name="IngredientsHint">Ingredients: e.g Tomatoes, Milk etc</string>
+</resources>

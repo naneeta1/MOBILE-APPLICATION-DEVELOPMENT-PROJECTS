@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FINAL_PROJECT</string>
+    <string name="send">SEND</string>
+    <string name="device">Search Devices</string>
+    <string name="bluetooth">Switch Bluetooth</string>
+    <string name="paired">Paired Devices</string>
+    <string name="available">Available</string>
+
+</resources>

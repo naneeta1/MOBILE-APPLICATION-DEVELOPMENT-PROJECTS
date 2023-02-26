@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task-03(Lab-06)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="names">
+        <item>Hillary Clinton</item>
+        <item>Bernie Senders</item>
+        <item>"Martin O'Malley"</item>
+        <item>"Lincoin Chafee"</item>
+        <item>"Donald Trump"</item>
+        <item>"Ben Carson"</item>
+        <item>"Marco Rubio"</item>
+        <item>"Jeb Bush"</item>
+    </string-array>
+</resources>
